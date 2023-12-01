@@ -1,0 +1,50 @@
+body.all {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+body{
+	background-image: url('https://img.freepik.com/free-vector/stars-with-sunburst-background_53876-93178.jpg?w=740&t=st=1701341633~exp=1701342233~hmac=81477020a385226be8bd0c9ee5ca962b00cfbbbbab8c5e7b8028a133bf1b49ca');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.login_form {
+    background-color: #5ea3a7;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+}
+
+.font {
+    text-align: center;
+}
+
+#username,
+#password {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#clickme {
+    background-color: #0c647c;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#clickme:hover {
+    background-color: #45a049;
+}
