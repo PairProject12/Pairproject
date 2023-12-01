@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #4499ba; /* Light Blue Sky */
+    overflow: auto;
+  
+  }
+ h1 {
+  font-family: 'Comic Sans MS', cursive;
+  color: rgb(154, 192, 207); 
+}  
+ 
+.card {
+  width: 300px;
+  padding: 15px;
+  border: 10px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-left: 552px;
+}
+  
+  
+
+.column {
+  flex: 0 0 calc(25% - 50px);
+  /* Adjust the width of each column as needed */
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0; /* Rounded corners only at the top */
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #e74c3c;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align:left;
+  background-color: #66ccff; /* Light blue background color for the list */
+  padding: 10px; /* Add some padding to the list */
+  border-radius: 10px; /* Rounded corners for the list */
+}
+
+li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px; /* Increase the font size */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}

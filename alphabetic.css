@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #4499ba; /* Light Blue Sky */
+    overflow: auto;
+    position: relative;
+  }
+
+  .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+  }
+
+  .column {
+    flex: 0 0 calc(25% - 50px);
+    /* Adjust the width of each column as needed */
+    margin: 10px;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 100px;
+    overflow: hidden;
+    box-shadow: 5px 4px rgb(218, 190, 7);
+
+  }
+
+h1 {
+    font-family: 'Comic Sans MS', cursive;
+    color: rgb(34, 178, 235); 
+} 
+.card img {
+    width: 100%;
+    height: 300px;
+    border-bottom: 0px solid #ddd; 
+    border-radius: 50px 50px 0 0; 
+    
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align:left;
+  background-color: #66ccff; /* Light blue background color for the list */
+  padding: 10px; /* Add some padding to the list */
+  border-radius: 10px; /* Rounded corners for the list */
+}
+
+li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px; /* Increase the font size */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+  color: #ff3366; /* Change the color on hover to a playful pink */
+}
